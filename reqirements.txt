@@ -5,3 +5,6 @@ torch
 pandas
 jinja2
 python-multipart
+docx
+sentencepiece
+python-docx
