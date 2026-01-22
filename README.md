@@ -41,9 +41,7 @@ The trained model is hosted externally due to size constraints.
 
 Download the model from Google Drive:
 
-```
-<https://drive.google.com/drive/folders/184s9mjCxy4uhUUbwsBodAlD4KnYl7EgP?usp=sharing>
-```
+<https://drive.google.com/file/d/13KRQEW-sgTMXuPr9c6MeTWKIVNkdvK3i/view?usp=sharing>
 
 After downloading, extract the folder and place it inside the project root as:
 
