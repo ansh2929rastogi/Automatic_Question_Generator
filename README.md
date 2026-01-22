@@ -42,7 +42,7 @@ The trained model is hosted externally due to size constraints.
 Download the model from Google Drive:
 
 ```
-<https://drive.google.com/drive/folders/184s9mjCxy4uhUUbwsBodAlD4KnYl7EgP?usp=drive_link>
+<https://drive.google.com/drive/folders/184s9mjCxy4uhUUbwsBodAlD4KnYl7EgP?usp=sharing>
 ```
 
 After downloading, extract the folder and place it inside the project root as:
