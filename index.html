@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Automatic Question Generator</h1>
+
+    <form method="post">
+        <textarea name="summary" placeholder="Paste your summary or text here..." required>{{ summary or "" }}</textarea>
+
+        <button type="submit">Generate Questions Automatically</button>
+    </form>
+
+    {% if results %}
+        <h2>Generated Questions ({{ results|length }} questions)</h2>
+
+        <ol>
+        {% for qa in results %}
+            <li>
+                <b>Q:</b> {{ qa.question }}
+            </li>
+        {% endfor %}
+        </ol>
+
+        <a href="/download/{{ session_id }}">
+            <button class="download">Download Questions (DOCX)</button>
+        </a>
+    {% endif %}
+</div>
+
+</body>
+</html>
